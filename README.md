@@ -1,4 +1,4 @@
-# site-proto
+# ELT Design
 
 A Claude Code skill that turns a client brief into a researched design package in one working day:
 
@@ -19,12 +19,12 @@ Clone this repository and link the skill folder into your personal skills:
 
 ```powershell
 # Windows (PowerShell)
-New-Item -ItemType Junction -Path "$HOME\.claude\skills\site-proto" -Target "<clone>\skills\site-proto"
+New-Item -ItemType Junction -Path "$HOME\.claude\skills\elt-design" -Target "<clone>\skills\elt-design"
 ```
 
 ```sh
 # macOS, Linux
-ln -s "<clone>/skills/site-proto" ~/.claude/skills/site-proto
+ln -s "<clone>/skills/elt-design" ~/.claude/skills/elt-design
 ```
 
 The first run installs the toolkit's npm packages and asks for your studio name and language.
@@ -33,17 +33,17 @@ The first run installs the toolkit's npm packages and asks for your studio name 
 
 Open Claude Code in a client's folder, then run:
 
-- `/site-proto` to start a run or continue the open one;
-- `/site-proto status` to see where the run is;
-- `/site-proto polish` for one round of changes after the client has seen the hub.
+- `/elt-design` to start a run or continue the open one;
+- `/elt-design status` to see where the run is;
+- `/elt-design polish` for one round of changes after the client has seen the hub.
 
-Everything the skill writes goes into `site-proto/` inside the client's folder. The client's own files stay untouched.
+Everything the skill writes goes into `elt-design/` inside the client's folder. The client's own files stay untouched.
 
 ## Layout
 
 ```
 .claude-plugin/plugin.json
-skills/site-proto/
+skills/elt-design/
   SKILL.md          the coordinator's router
   references/       standing rules, one file per phase, agent roles
   templates/        assignment, checkpoint (hub, moodboard, dossier, variant to come)
@@ -52,7 +52,7 @@ CONTEXT.md          the domain language
 docs/adr/           architecture decisions
 ```
 
-The toolkit's tests: `npm test` in `skills/site-proto/toolkit/`.
+The toolkit's tests: `npm test` in `skills/elt-design/toolkit/`.
 
 ## License
 

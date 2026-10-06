@@ -1,4 +1,4 @@
-# site-proto
+# ELT Design
 
 Domain language of a skill that turns a client brief into a researched design package in one working day: website prototypes assembled from real code of reference sites. Canonical terms are English; the Ukrainian term used in planning docs follows in parentheses.
 
