@@ -1,0 +1,10 @@
+{
+  "name": "site-proto",
+  "version": "0.1.0",
+  "description": "Turn a client brief into a researched Prototype Package or Creative Set in one working day.",
+  "author": {
+    "name": "Mykhailo Stoliarenko"
+  },
+  "license": "MIT",
+  "keywords": ["prototype", "web design", "moodboard", "creatives", "skill"]
+}
